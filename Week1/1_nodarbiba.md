@@ -1,0 +1,1 @@
+# 1. nodarbība. Ievads darbā, darba vides sagatavošana
