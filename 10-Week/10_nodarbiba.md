@@ -1,4 +1,4 @@
-# 4. nodarbība. Funkcijas, moduļi, paketes
+# 10. nodarbība. Funkcijas, moduļi, paketes
 
 ## 1. uzdevums. Vienkāršu funkciju izveide
 
