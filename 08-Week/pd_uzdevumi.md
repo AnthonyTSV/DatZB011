@@ -40,10 +40,9 @@ print(elements_10)
 
 Speciālā relativitāte ir fizikas nozare, kas apraksta kustības ar ļoti lieliem ātrumiem.
 Šajā teorijā objekta impulss $p$ ar ātrumu $v$ (m/s) un masu $m$ (kg) ir:
+
 $$
-
 p = m \cdot v \cdot \gamma, \; \gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}},
-
 $$
 
 kur $c \approx 300 \, 000 \, 000$ m/s ir gaismas ātrums. Tālāk redzamā programma mēģina aprēķināt objekta impulsu, ja tā ātrums ir $\tfrac{1}{3}$ no gaismas ātruma un masa $m = 0.14$ kg. Programmā ir daudz kļūdu, un tā nestrādā.
@@ -90,7 +89,6 @@ while i < num_loops:
     v[i] = v[i] * 3600 / 1000  # convert to km/h
     print("Least speed to complete the loop: %.2f km/h" % v[i])
     i += 1
-
 ```
 
 **Uzdevums**:
@@ -131,6 +129,7 @@ c) Uzzīmēt baktēriju pieauguma grafiku 24 stundu laikā, izmantojot logaritmi
 Simulēsim spēli, kur bumba tiek mesta pret sienu ar uzkrāsotu mērķi. Punkti tiek piešķirti atkarībā no tā, kur bumba trāpa.
 
 ![hit_target](hit_target.png)
+
 _Ilustrācija sistēmai, uz kuras pamata veidosim simulāciju._
 
 Bumbas augstumu var aprakstīt ar funkciju:
@@ -143,7 +142,13 @@ kur $v_0$ ir sākuma ātrums, $\theta$ ir mešanas leņķis, un $g = 9.81 , m/s^
 
 a) Uzrakstīt funkciju, kas atgriež bumbas augstumu dotajā laikā $t$.
 
-b) Modeļa ietvaros bumba trāpīs sienai laikā $T = \frac{b}{v_0 \cos(\theta)}$, kur $b$ ir attālums līdz sienai.
+b) Modeļa ietvaros bumba trāpīs sienai laikā
+
+$$
+T = \frac{b}{v_0 \cos(\theta)},
+$$
+
+kur $b$ ir attālums līdz sienai.
 Pēc $y(T)$ vērtības noteiks punktus. Punktu skaits tiek aprēķināts un atgriezts ar funkciju, kuru jāuzraksta pašam.
 
 Mērķis atrodas uz sienas no augstuma $h_0$ līdz $h_1$ ($h_0 < h_1$).
