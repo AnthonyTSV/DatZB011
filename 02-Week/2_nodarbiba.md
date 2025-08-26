@@ -1,5 +1,39 @@
 # 2. nodarbība. Ievads Python, pirmās programmas
 
+## 1. uzdevums
+
+Nosaki tipu šādiem mainīgajiem:
+
+```python
+b=3.14
+c=7/2
+d=7//2
+s="teksts"
+z=2+3j
+```
+
+## 2. uzdevums
+
+Vairāki mainīgie reizē.
+
+Uzraksti programmu, kas samaina x un y vietām.
+
+```python
+x, y = 2, 3
+print(x, y)
+```
+
+## 3. uzdevums
+
+Skaitļi binārajā un heksadecimālajā sistēmā
+
+**Kādas ir mainīgo vērtības decimālajā sistēmā?**
+
+```python
+n=0b10001111
+m=0x8f
+```
+
 **Papildus uzdevumi prasmju nostiprināšanai.  
 _Izpilde nav obligāta, bet ir vēlama!_**
 
