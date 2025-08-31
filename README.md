@@ -27,9 +27,9 @@ Nodarbību tēmu saraksts:
 > * 20% semestra darbs (_neobligāts!_)
 > * 50% praktiskais darbs semestra laikā:
 >
-> * 5% apmeklējums
-> * 15% mājasdarbi (8 testi)
-> * 30% patstāvīgie darbi (kopā divi, 8. un 16. nedēļā)
+>   * 5% apmeklējums
+>   * 15% mājasdarbi (8 testi)
+>   * 30% patstāvīgie darbi (kopā divi, 8. un 16. nedēļā)
 
 >[!NOTE]
 > **Par laboratorijas darbiem jāsaņem ≥ 35%, lai varētu kārtot eksāmenu.**
