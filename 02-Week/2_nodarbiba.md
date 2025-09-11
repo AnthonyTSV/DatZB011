@@ -262,8 +262,9 @@ v=input("Kas Tu esi? ")
 print(f"Labdien, {v}!")
 ```
 
-**Papildus uzdevumi prasmju nostiprināšanai.  
-_Izpilde nav obligāta, bet ir vēlama!_**
+## Papildus uzdevumi prasmju nostiprināšanai
+
+*Izpilde nav obligāta, bet ir vēlama!*
 
 1. Definēt trīs veselu skaitļu mainīgos. Veikt ar tiem 5 dažādas aritmētisku darbību kombinācijas pēc izvēles un izvadīt rezultātu uz ekrāna. Izvadam uz ekrāna ir pievienots arī teksts ar atšifrējumu, piemēram, ja a=2, b=3 un c=5 uz ekrāna izvada: a+b\*\*c = 245, kā arī (a + b)/c = 1 un vēl trīs darbības.
 2. Spiediena mērvienības. Izveidojiet programmu, kas lietotāja ievadīto spiedienu kPa pārveidos uz PSI, mmHg un atmosfērās. Uz ekrāna jāizvada spiediens visās vienībās, Koeficientus un nepieciešamās formulas nepieciešams atrast internetā.
