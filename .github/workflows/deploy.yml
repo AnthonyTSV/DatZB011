@@ -30,6 +30,9 @@ jobs:
         python-version: '3.11'
         cache: pip # Implicitly uses requirements.txt for cache key
 
+    - name: Install dependencies
+      run: pip install -U jupyter-book
+    
     # Build the book
     - name: Build the book
       run: |
