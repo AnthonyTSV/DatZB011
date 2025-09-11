@@ -1,0 +1,30 @@
+# Table of contents
+# Reference: https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+parts:
+  - caption: 1. nedēļa
+    chapters:
+    - file: 01-Week/1_nodarbiba
+  - caption: 2. nedēļa
+    chapters:
+    - file: 02-Week/2_nodarbiba
+
+# # Example
+#
+# format: jb-book
+# root: index
+# parts:
+#   - caption: Name of Part 1
+#     chapters:
+#     - file: path/to/part1/chapter1
+#     - file: path/to/part1/chapter2
+#       sections:
+#       - file: path/to/part1/chapter2/section1
+#   - caption: Name of Part 2
+#     chapters:
+#     - file: path/to/part2/chapter1
+#     - file: path/to/part2/chapter2
+#       sections:
+#       - file: path/to/part2/chapter2/section1
