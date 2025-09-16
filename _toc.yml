@@ -10,6 +10,7 @@ parts:
   - caption: 2. nedēļa
     chapters:
     - file: 02-Week/2_nodarbiba
+    - file: 02-Week/2_papild
   - caption: 3. nedēļa
     chapters:
     - file: 03-Week/3_nodarbiba
