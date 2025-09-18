@@ -1,4 +1,4 @@
-# 2. Patstāvīgā darba uzdevumi
+# 2. Patstāvīgais darbs
 
 ## 1. uzdevums. Raindrops Simulation
 

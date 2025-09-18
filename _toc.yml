@@ -14,6 +14,15 @@ parts:
   - caption: 3. nedēļa
     chapters:
     - file: 03-Week/3_nodarbiba
+  
+  - caption: Patstavīgie darbi
+    chapters:
+    - file: 08-Week/pd_uzdevumi
+    # - file: 16-Week/pd2_uzdevumi
+  
+  - caption: Semestra darbs
+    chapters:
+    - file: 17-semestra-darbs/semestra_darbs
 
 # # Example
 #

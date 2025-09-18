@@ -5,8 +5,8 @@
 
 **Uzdevums**: Izveidojiet grafiku, kas attēlo ķermeņa kustības ātrumu un veikto ceļu. Ķermenis atrodas vienmērīgi paātrināta taisnlīnijas kustībā.
 
-Sākuma ātrums $v_0 = 0~m/s$  
-Paātrinājums $a = 2~m/s^2$  
+Sākuma ātrums $v_0 = 0 \; m/s$  
+Paātrinājums $a = 2 \; m/s^2$  
 Laika periods $t$ ir 0 līdz 10 sekundēm ar soli 0,1 s
 
 Darba gaita:
@@ -20,7 +20,6 @@ Darba gaita:
 5. Pievienojiet virsrakstu "Ķermeņa kustības ātrums un ceļš".
 6. Pievienojiet asu nosaukumus grafikiem.
 7. Noformējiet grafiku (pievienojiet režģlīnijas, krāsas u.tml.).
-8. Saglabājiet grafiku arī kā PNG failu ar nosaukumu `uzvārds_1uzd.png`.
 
 ![1uzd](images/1uzd.png)
 
@@ -90,7 +89,6 @@ Darba gaita:
 6. Pievienojiet vērtību etiķetes virs katra stabiņa.
 7. Izmantojiet pielāgotu tēmu vai stilu no `Matplotlib` (pēc pašu vēlmes), lai diagrammas būtu vizuāli pievilcīgas.
 8. Saglabājiet diagrammas PDF ar nosaukumu `uzvārds_4uzd.pdf`.
-9. Nododiet PDF testā atbilstošajā jautājumā.
 
 ![4uzd](images/4uzd.png)
 
@@ -142,7 +140,7 @@ Darba gaita:
    5) nepārtraukti.  
    Visas līknes attēlot vienā grafikā, apzīmētas ar nosaukumiem.
 
-3. [Montekarlo $\pi$ noteikšana](https://en.wikipedia.org/wiki/Monte_Carlo_integration).  
+3. [Montekarlo π noteikšana](https://en.wikipedia.org/wiki/Monte_Carlo_integration).  
    Ar nejaušu skaitļu ģeneratoru radīt $N$ skaitļu pārus jeb punkta $(x,y)$ koordinātas intervālā no -1 līdz 1. Attēlot grafiski vienības riņķi, kā arī visus punktus. Tos iekrāsot dažādās krāsās atkarībā no piederības vienības riņķim. Grafika virsrakstā norādīt noteikto $\pi$ vērtību (figūru laukumu attiecība ir aptuveni vienāda ar tajās "iekritušo" punktu skaitu attiecību).
 
 4. Parādīt iepriekšējā uzdevuma metodes konverģenci, t.i. attēlot grafikos gan $\pi$ novērtējuma attīstību un patieso $\pi$ vērtību, gan novērtējuma absolūto novirzi no patiesās vērtības, atkarībā no izmantoto punktu skaita $N$.  

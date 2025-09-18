@@ -1,10 +1,20 @@
-# 1. Patstāvīgā darba uzdevumi
+# 1. Patstāvīgais darbs
 
 > [!IMPORTANT]
 > **Termiņš**: 8. nedēļas piektdiena 23:59
 >
 > **Iesniegšana**:
 > Pievienot e-studijās .pdf failu ar kodu, attēliem un komentāriem.
+
+## Kā noformēt patstāvīgo darbu?
+
+- Izmanto $\LaTeX$ dokumenta veidošanai
+- Izmanto `latex_sagatave.tex` kā sagatavi
+- Ievieto savu vārdu un uzvārdu dokumenta augšdaļā
+- Pievieno savu kodu, attēlus un komentārus pie katra uzdevuma
+- Iesniedz dokumentu e-studijās līdz noteiktajam termiņam
+- Iesniedzams ir tikai `.pdf` fails
+- Faila nosaukums: `1_PD_{ID}.pdf`, piemēram, `1_PD_jb12345.pdf`
 
 ## 1. uzdevums. Ķīmiskie elementi vārdnīcā
 
