@@ -4,7 +4,7 @@ Zemāk ir paraugs, ko jums vajadzētu izmantot, rakstot semestra darbu. Mēs ies
 
 - [Tex fails](https://github.com/AnthonyTSV/DatZB011/blob/main/17-semestra-darbs/sagatave/main.tex)
 - [BibTex fails](https://github.com/AnthonyTSV/DatZB011/blob/main/17-semestra-darbs/sagatave/ref.bib)
-- Kā rakstīt zinātisko rakstu (angļu valodā) [ŠEIT](ttps://github.com/AnthonyTSV/DatZB011/blob/main/17-semestra-darbs/how_to_write_a_scientific_report.pdf)
+- Kā rakstīt zinātisko rakstu (angļu valodā) [ŠEIT](https://github.com/AnthonyTSV/DatZB011/blob/main/17-semestra-darbs/how_to_write_a_scientific_report.pdf)
 
 Lai viegli apskatītu šablonu "darbībā", jūs varat piekļūt tam kā tikai lasāmam Overleaf projektam [šeit](https://www.overleaf.com/read/mmhyjfjchpbm#5d8543).
 
