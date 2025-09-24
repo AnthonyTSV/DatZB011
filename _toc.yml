@@ -15,6 +15,9 @@ parts:
     chapters:
     - file: 03-Week/3_nodarbiba
     - file: 03-Week/suggested_sol
+  - caption: 4. nedēļa
+    chapters:
+    - file: 04-Week/4_nodarbiba
   
   # - caption: Patstavīgie darbi
     # chapters:
