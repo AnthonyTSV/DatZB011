@@ -104,7 +104,7 @@ pip install seaborn
 **Uzdevums**: Izmantojot `Seaborn`, izveidojiet izkliedes (*scatter*) grafiku, kas attēlo ideālā gāzes spiediena un tilpuma attiecību dažādos temperatūras punktos.
 
 - Ideālā gāzes likums: $V = nRT$
-- Pieņemsim, ka $n = 1~mol$, $R = 0,0821~\frac{L \cdot atm}{mol \cdot K}$
+- Pieņemsim, ka $n = 1~mol$, $R = 0,0821 \frac{L \cdot atm}{mol \cdot K}$
 - Tilpums $V$ = 1 līdz 10 litriem ar soli 0,5 L
 - Temperatūra $T$ = dažādi punkti (300 K, 310 K, 320 K, 330 K, 340 K)
 
