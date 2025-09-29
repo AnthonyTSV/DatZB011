@@ -18,6 +18,10 @@ parts:
   - caption: 4. nedēļa
     chapters:
     - file: 04-Week/4_nodarbiba
+    - file: 04-Week/suggested_sol
+  - caption: 5. nedēļa
+    chapters:
+    - file: 05-Week/5_nodarbiba
   
   # - caption: Patstavīgie darbi
     # chapters:
