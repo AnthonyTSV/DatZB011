@@ -23,9 +23,9 @@ parts:
     chapters:
     - file: 05-Week/5_nodarbiba
   
-  # - caption: Patstavīgie darbi
-    # chapters:
-    # - file: 08-Week/pd_uzdevumi
+  - caption: Patstavīgie darbi
+    chapters:
+    - file: 08-Week/pd_uzdevumi
     # - file: 16-Week/pd2_uzdevumi
   
   - caption: Semestra darbs
