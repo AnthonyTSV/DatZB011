@@ -22,6 +22,7 @@ parts:
   - caption: 5. nedēļa
     chapters:
     - file: 05-Week/5_nodarbiba
+    - file: 05-Week/suggested_sol
   
   - caption: Patstavīgie darbi
     chapters:
