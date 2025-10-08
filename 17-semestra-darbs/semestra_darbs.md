@@ -1,6 +1,6 @@
 # Semestra darbs
 
-Zemāk ir paraugs, ko jums vajadzētu izmantot, rakstot semestra darbu. Mēs iesakām veltīt laiku, lai izlasītu visu parauga tekstu, jo tajā ir daudz noderīgas informācijas par to, kā strukturēt zinātnisko ziņojumu, kā arī daži LaTeX padomi un triki.
+Zemāk ir paraugs, ko jums vajadzētu izmantot, rakstot semestra darbu. Mēs iesakām veltīt laiku, lai izlasītu visu parauga tekstu, jo tajā ir daudz noderīgas informācijas par to, kā strukturēt zinātnisko rakstu, kā arī daži LaTeX padomi un triki.
 
 - [Tex fails](https://github.com/AnthonyTSV/DatZB011/blob/main/17-semestra-darbs/sagatave/main.tex)
 - [BibTex fails](https://github.com/AnthonyTSV/DatZB011/blob/main/17-semestra-darbs/sagatave/ref.bib)
