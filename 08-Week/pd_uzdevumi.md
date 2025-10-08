@@ -9,7 +9,7 @@
 ## Kā noformēt patstāvīgo darbu?
 
 - Izmanto $\LaTeX$ dokumenta veidošanai
-- Izmanto `latex_sagatave.tex` kā sagatavi
+- Izmanto `latex_sagatave.tex` kā sagatavi (sagatave ir [šeit](https://github.com/AnthonyTSV/DatZB011/blob/main/08-Week/latex_sagatave.tex))
 - Ievieto savu vārdu un uzvārdu dokumenta augšdaļā
 - Pievieno savu kodu, attēlus un komentārus pie katra uzdevuma
 - Iesniedz dokumentu e-studijās līdz noteiktajam termiņam
