@@ -78,7 +78,7 @@ $$
 v = \sqrt{g r}
 $$
 
-Šeit, $g = 9.81 \, m/s^2$ un $r$ ir cilpas rādiuss (metros).
+Šeit, $g = 9.81 \~ m/s^2$ un $r$ ir cilpas rādiuss (metros).
 
 ---
 
@@ -102,9 +102,9 @@ while i < num_loops:
 ```
 
 **Uzdevums**:
-
-1. Pārveidot programmu, lai tā izmantotu for ciklu, nevis while ciklu.
-2. Tā neizdrukā $v$ vērtību tūlīt pēc tās aprēķināšanas, bet gan izdrukā $v$ vērtības atsevišķā izvadē katram ciklam.
+Pārveidot programmu, lai tā
+1. izmantotu `for` ciklu, nevis `while` ciklu;
+2. izdrukā $v$ vērtības atsevišķā ciklā pēc visu $v$ aprēķina.
 
 ## 4. uzdevums. Populācijas pieaugums
 
