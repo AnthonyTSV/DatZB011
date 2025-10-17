@@ -1,7 +1,7 @@
 # 1. Patstāvīgais darbs
 
 > [!IMPORTANT]
-> **Termiņš**: 8. nedēļas piektdiena 23:59
+> **Termiņš**: piektdiena, 2025. gada 24. oktobris, 23:59
 >
 > **Iesniegšana**:
 > Pievienot e-studijās .pdf failu ar kodu, attēliem un komentāriem.
