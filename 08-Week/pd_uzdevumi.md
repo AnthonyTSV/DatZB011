@@ -1,7 +1,7 @@
 # 1. Patstāvīgais darbs
 
 > [!IMPORTANT]
-> **Termiņš**: 8. nedēļas piektdiena 23:59
+> **Termiņš**: piektdiena, 2025. gada 24. oktobris, 23:59
 >
 > **Iesniegšana**:
 > Pievienot e-studijās .pdf failu ar kodu, attēliem un komentāriem.
@@ -21,9 +21,9 @@
 Aplūkosim vārdnīcu `elements_10`, kurā ir 10 pirmie ķīmiskie elementi no periodiskās tabulas:
 
 ```python
-elements_10 = {1: '', 2: 'Hēlijs', 3: 'Litijs',
-4: 'Berilijs', 5: 'Bors', 6: 'Ogļūdeņradis',
-7: 'Slāpeklis', 8: '',
+elements_10 = {1: '', 2: 'Helijs', 3: 'Litijs',
+4: 'Berilijs', 5: 'Bors', 6: 'Ogludenradis',
+7: 'Slapeklis', 8: '',
 9: 'Fluors', 10: 'Neons'}
 ```
 
@@ -38,11 +38,11 @@ b) Nokopējiet sekojošo kodu savā skriptā un palaidiet to. Atrodiet atšķir�
 
 ```python
 elements_10_copy = elements_10.copy()
-elements_10_copy.update({11: 'Nātrijs'})
+elements_10_copy.update({11: 'Natrijs'})
 print(elements_10)
 print('\n')
 elements_11 = elements_10
-elements_11.update({11: 'Nātrijs'})
+elements_11.update({11: 'Natrijs'})
 print(elements_10)
 ```
 
@@ -78,7 +78,7 @@ $$
 v = \sqrt{g r}
 $$
 
-Šeit, $g = 9.81 \, m/s^2$ un $r$ ir cilpas rādiuss (metros).
+Šeit, $g = 9.81 \~ m/s^2$ un $r$ ir cilpas rādiuss (metros).
 
 ---
 
@@ -102,9 +102,9 @@ while i < num_loops:
 ```
 
 **Uzdevums**:
-
-1. Pārveidot programmu, lai tā izmantotu for ciklu, nevis while ciklu.
-2. Tā neizdrukā $v$ vērtību tūlīt pēc tās aprēķināšanas, bet gan izdrukā $v$ vērtības atsevišķā izvadē katram ciklam.
+Pārveidot programmu, lai tā
+1. izmantotu `for` ciklu, nevis `while` ciklu;
+2. izdrukā $v$ vērtības atsevišķā ciklā pēc visu $v$ aprēķina.
 
 ## 4. uzdevums. Populācijas pieaugums
 
