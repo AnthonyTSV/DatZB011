@@ -21,9 +21,9 @@
 Aplūkosim vārdnīcu `elements_10`, kurā ir 10 pirmie ķīmiskie elementi no periodiskās tabulas:
 
 ```python
-elements_10 = {1: '', 2: 'Hēlijs', 3: 'Litijs',
-4: 'Berilijs', 5: 'Bors', 6: 'Ogļūdeņradis',
-7: 'Slāpeklis', 8: '',
+elements_10 = {1: '', 2: 'Helijs', 3: 'Litijs',
+4: 'Berilijs', 5: 'Bors', 6: 'Ogludenradis',
+7: 'Slapeklis', 8: '',
 9: 'Fluors', 10: 'Neons'}
 ```
 
@@ -38,11 +38,11 @@ b) Nokopējiet sekojošo kodu savā skriptā un palaidiet to. Atrodiet atšķir�
 
 ```python
 elements_10_copy = elements_10.copy()
-elements_10_copy.update({11: 'Nātrijs'})
+elements_10_copy.update({11: 'Natrijs'})
 print(elements_10)
 print('\n')
 elements_11 = elements_10
-elements_11.update({11: 'Nātrijs'})
+elements_11.update({11: 'Natrijs'})
 print(elements_10)
 ```
 
