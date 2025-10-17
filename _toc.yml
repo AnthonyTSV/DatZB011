@@ -28,6 +28,7 @@ parts:
     - file: 06-Week/6_nodarbiba
     - file: 06-Week/starprezultats
     - file: 07-Week/7_nodarbiba
+    - file: 07-Week/solution
   
   - caption: Patstavīgie darbi
     chapters:
