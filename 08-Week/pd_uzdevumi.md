@@ -145,7 +145,7 @@ _Ilustrācija sistēmai, uz kuras pamata veidosim simulāciju._
 Bumbas augstumu var aprakstīt ar funkciju:
 
 $$
-y(t) = -\frac{1}{2} g t^2 + v_0 t + h_0,
+y(t) = -\frac{1}{2} g t^2 + v_0 t \sin(\theta),
 $$
 
 kur $v_0$ ir sākuma ātrums, $\theta$ ir mešanas leņķis, un $g = 9.81 , m/s^2$.
