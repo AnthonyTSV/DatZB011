@@ -29,6 +29,9 @@ parts:
     - file: 06-Week/starprezultats
     - file: 07-Week/7_nodarbiba
     - file: 07-Week/solution
+  - caption: 9. nedēļa
+    chapters:
+    - file: 09-Week/9_nodarbiba
   
   - caption: Patstavīgie darbi
     chapters:
