@@ -60,7 +60,13 @@ jobs:
           PY
 
       - name: Build Jupyter Book
-        run: jupyter-book build _jb_src
+        run: |
+          set -e
+          jupyter-book build _jb_src
+          if [ ! -d "_jb_src/_build/html" ]; then
+            echo "Build failed: _jb_src/_build/html does not exist."
+            exit 1
+          fi
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
