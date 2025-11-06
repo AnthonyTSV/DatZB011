@@ -21,7 +21,7 @@ jobs:
 
       - name: Install deps
         run: |
-          pip install -U 'jupyter-book==0.13.*' myst-parser
+          pip install -U 'jupyter-book==0.13.*' myst-parser lxml[html_clean]
           jupyter-book --version
 
       # Make a temp working copy so originals stay untouched
