@@ -7,43 +7,43 @@ parts:
   - caption: 1. nedēļa
     chapters:
     - file: 01-Week/1_nodarbiba
-  - caption: 2. nedēļa
-    chapters:
-    - file: 02-Week/2_nodarbiba
-    - file: 02-Week/2_papild
-  - caption: 3. nedēļa
-    chapters:
-    - file: 03-Week/3_nodarbiba
-    - file: 03-Week/suggested_sol
-  - caption: 4. nedēļa
-    chapters:
-    - file: 04-Week/4_nodarbiba
-    - file: 04-Week/suggested_sol
-  - caption: 5. nedēļa
-    chapters:
-    - file: 05-Week/5_nodarbiba
-    - file: 05-Week/suggested_sol
-  - caption: 6. un 7. nedēļa
-    chapters:
-    - file: 06-Week/6_nodarbiba
-    - file: 06-Week/starprezultats
-    - file: 07-Week/7_nodarbiba
-    - file: 07-Week/solution
-  - caption: 9. nedēļa
-    chapters:
-    - file: 09-Week/9_nodarbiba
+  # - caption: 2. nedēļa
+  #   chapters:
+  #   - file: 02-Week/2_nodarbiba
+  #   - file: 02-Week/2_papild
+  # - caption: 3. nedēļa
+  #   chapters:
+  #   - file: 03-Week/3_nodarbiba
+  #   - file: 03-Week/suggested_sol
+  # - caption: 4. nedēļa
+  #   chapters:
+  #   - file: 04-Week/4_nodarbiba
+  #   - file: 04-Week/suggested_sol
+  # - caption: 5. nedēļa
+  #   chapters:
+  #   - file: 05-Week/5_nodarbiba
+  #   - file: 05-Week/suggested_sol
+  # - caption: 6. un 7. nedēļa
+  #   chapters:
+  #   - file: 06-Week/6_nodarbiba
+  #   - file: 06-Week/starprezultats
+  #   - file: 07-Week/7_nodarbiba
+  #   - file: 07-Week/solution
+  # - caption: 9. nedēļa
+  #   chapters:
+  #   - file: 09-Week/9_nodarbiba
   # - caption: 10. nedēļa
   #   chapters:
   #   - file: 10-Week/10_nodarbiba
   
-  - caption: Patstavīgie darbi
-    chapters:
-    - file: 08-Week/pd_uzdevumi
-    # - file: 16-Week/pd2_uzdevumi
+  # - caption: Patstavīgie darbi
+  #   chapters:
+  #   - file: 08-Week/pd_uzdevumi
+  #   # - file: 16-Week/pd2_uzdevumi
   
-  - caption: Semestra darbs
-    chapters:
-    - file: 17-semestra-darbs/semestra_darbs
+  # - caption: Semestra darbs
+  #   chapters:
+  #   - file: 17-semestra-darbs/semestra_darbs
 
 # # Example
 #
