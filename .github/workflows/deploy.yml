@@ -20,43 +20,52 @@ jobs:
           python-version: "3.11"
 
       - name: Install deps
-        run: |
-          pip install --upgrade pip
-          pip install "jupyter-book<2"
+        run: pip install -U 'jupyter-book<2'
 
+      # Make a temp working copy so originals stay untouched
       - name: Prepare working tree
         run: |
-          rm -rf _jb_src
-          rsync -a --exclude '_build' --exclude '.git' --exclude '_jb_src' ./ _jb_src/
+          rsync -a --exclude '_build' ./ ./_jb_src/
 
-      - name: Sanity check config
+      # Convert >[!NOTE] to ```{note} ... ```
+      - name: Convert GitHub alert blocks to MyST
         run: |
-          test -f _jb_src/_config.yml || (echo "_config.yml missing in _jb_src" && exit 1)
-          test -f _jb_src/_toc.yml || (echo "_toc.yml missing in _jb_src" && exit 1)
+          python - <<'PY'
+          from pathlib import Path
+          import re, sys
+          ROOT = Path('_jb_src')
+          ALERT_START = re.compile(r'^\s*>\s*\[\!(\w+)\]\s*(.*)$')
+          QUOTE_LINE  = re.compile(r'^\s*>\s?(.*)$')
+          MAP = {"NOTE":"note","TIP":"tip","IMPORTANT":"important","WARNING":"warning","CAUTION":"warning"}
+          def convert_text(t:str)->str:
+              out, lines, i, n = [], t.splitlines(), 0, 0
+              n = len(lines)
+              while i < n:
+                  m = ALERT_START.match(lines[i])
+                  if not m:
+                      out.append(lines[i]); i+=1; continue
+                  kind = MAP.get(m.group(1).upper(), "note")
+                  body = [m.group(2).rstrip()] if m.group(2).strip() else []
+                  i += 1
+                  while i < n and (q:=QUOTE_LINE.match(lines[i])):
+                      body.append(q.group(1).rstrip()); i += 1
+                  while body and body[0]=="": body.pop(0)
+                  while body and body[-1]=="" : body.pop()
+                  out.append(f"```{{{kind}}}")
+                  out.extend(body or [""])
+                  out.append("```")
+              return "\n".join(out)
+          for md in ROOT.rglob("*.md"):
+              md.write_text(convert_text(md.read_text(encoding="utf-8")), encoding="utf-8")
+          PY
 
-      - name: Build Jupyter Book (force html)
-        run: |
-          set -e
-          jupyter-book build _jb_src --builder html 2>&1 | tee build.log
-
-      - name: Ensure build output exists (html or dirhtml)
-        run: |
-          if [ -d "_jb_src/_build/html" ]; then
-            echo "Found _build/html"
-            echo "_jb_src/_build/html" > build_path.txt
-          elif [ -d "_jb_src/_build/dirhtml" ]; then
-            echo "Found _build/dirhtml"
-            echo "_jb_src/_build/dirhtml" > build_path.txt
-          else
-            echo "Build failed: no _build/html or _build/dirhtml produced."
-            sed -n '1,300p' build.log || true
-            exit 1
-          fi
+      - name: Build Jupyter Book
+        run: jupyter-book build _jb_src
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: $(cat build_path.txt)
+          path: "_jb_src/_build/html"
 
       - name: Deploy to GitHub Pages
         id: deployment
