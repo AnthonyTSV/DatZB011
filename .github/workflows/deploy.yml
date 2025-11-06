@@ -37,9 +37,7 @@ jobs:
       - name: Build Jupyter Book (force html)
         run: |
           set -e
-          jupyter-book build _jb_src --builder html -v 2>&1 | tee build.log
-          echo "--- Build tree ---"
-          ls -R _jb_src/_build || true
+          jupyter-book build _jb_src --builder html 2>&1 | tee build.log
 
       - name: Ensure build output exists (html or dirhtml)
         run: |
