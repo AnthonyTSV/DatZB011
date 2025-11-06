@@ -27,6 +27,9 @@ jobs:
         run: |
           rsync -a --exclude '_build' ./ ./_jb_src/
 
+      - name: List files in _jb_src
+        run: ls -R _jb_src
+
       # Convert >[!NOTE] to ```{note} ... ```
       - name: Convert GitHub alert blocks to MyST
         run: |
