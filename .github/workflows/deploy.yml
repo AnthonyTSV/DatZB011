@@ -13,25 +13,26 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-    
+
       - name: Install deps
         run: |
           pip install -U 'jupyter-book==0.13.*' myst-parser
           jupyter-book --version
-    
+
       # Make a temp working copy so originals stay untouched
       - name: Prepare working tree
         run: |
           rm -rf _jb_src
           rsync -a --exclude '_build' --exclude '.git' --exclude '_jb_src' ./ _jb_src/
-    
+
       - name: List files in _jb_src
         run: ls -R _jb_src
-    
+
       # Convert >[!NOTE] to ```{note} ... ``` (skip non-file md entries)
       - name: Convert GitHub alert blocks to MyST
         run: |
@@ -71,14 +72,14 @@ jobs:
                   raise
               md.write_text(convert_text(src), encoding="utf-8")
           PY
-    
+
       - name: Check _jb_src content
         run: |
           echo "Files at top of _jb_src:"
           ls -la _jb_src | sed -n '1,200p'
           test -f _jb_src/_config.yml || (echo "_config.yml missing in _jb_src" && exit 1)
           test -f _jb_src/_toc.yml || (echo "_toc.yml missing in _jb_src" && exit 1)
-    
+
       - name: Detect problematic .md directories
         run: |
           python - <<'PY'
@@ -94,12 +95,12 @@ jobs:
               except Exception:
                 bad.append(str(p)+" -> symlink unresolved")
           if bad:
-            print("Found problematic entries that may cause EISDIR:\")
+            print("Found problematic entries that may cause EISDIR:")
             print('\n'.join(bad))
             raise SystemExit(2)
           print("No obvious .md-as-directory or symlink issues found.")
           PY
-    
+
       - name: Build Jupyter Book
         run: |
           set -e
@@ -109,14 +110,12 @@ jobs:
             ls -la _jb_src/_build || true
             exit 1
           fi
-    
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: "_jb_src/_build/html"
-    
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-            id: deployment
-            uses: actions/deploy-pages@v4
