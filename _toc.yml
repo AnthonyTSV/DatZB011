@@ -32,6 +32,9 @@ parts:
   - caption: 9. nedēļa
     chapters:
     - file: 09-Week/9_nodarbiba
+  - caption: 10. nedēļa
+    chapters:
+    - file: 10-Week/10_nodarbiba
   
   - caption: Patstavīgie darbi
     chapters:

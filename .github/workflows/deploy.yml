@@ -20,7 +20,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install deps
-        run: pip install -U jupyter-book
+        run: pip install -U 'jupyter-book<2'
 
       # Make a temp working copy so originals stay untouched
       - name: Prepare working tree
