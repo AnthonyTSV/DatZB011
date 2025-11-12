@@ -176,3 +176,5 @@ a) Uzrakstīt programmu, kas ar for ciklu izdrukā punktu skaitu, ja
 $h_0 = 3 , m$, $h_1 = 3.5 , m$, $\theta = \pi/4$, $b = 3.5 , m$ un $v_0 = 15, 16, 19, 22 , m/s$.
 
 b) Uzzīmēt grafiku, kas rāda sakarību starp sākuma ātrumu $v_0$ un iegūtajiem punktiem.
+
+**Uzdevumi adaptēti no Oslo universitātes (IN1900 kursa uzdevumiem)[https://www.uio.no/studier/emner/matnat/ifi/IN1900/h25/index.html]**
