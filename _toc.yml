@@ -39,6 +39,7 @@ parts:
   - caption: 11. nedēļa
     chapters:
     - file: 11-Week/11_nodarbiba
+    - file: 11-Week/OOP.ipynb
   
   - caption: Patstavīgie darbi
     chapters:
