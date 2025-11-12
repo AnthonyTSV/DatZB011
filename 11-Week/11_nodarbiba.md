@@ -1,4 +1,4 @@
-# 9. nodarbība. Objektorientētā programmēšana
+# 11. nodarbība. Objektorientētā programmēšana
 
 **Mērķi:**
 
