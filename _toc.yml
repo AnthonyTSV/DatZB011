@@ -36,6 +36,9 @@ parts:
     chapters:
     - file: 10-Week/10_nodarbiba
     - file: 10-Week/solution
+  - caption: 11. nedēļa
+    chapters:
+    - file: 11-Week/11_nodarbiba
   
   - caption: Patstavīgie darbi
     chapters:
