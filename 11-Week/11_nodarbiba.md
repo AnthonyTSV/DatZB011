@@ -7,7 +7,9 @@
 
 ## Uzdevumi
 
-Galvenie uzdevumi atrodas `OOP.ipynb` failā.
+Galvenie uzdevumi atrodas `OOP.ipynb` failā [šeit][https://anthonytsv.github.io/DatZB011/11-Week/OOP.html].
+
+'programmesana_pakete.py' fails ir [šeit](https://github.com/AnthonyTSV/DatZB011/blob/main/11-Week/programmesana_pakete.py).
 
 ## Papildus uzdevumi
 
