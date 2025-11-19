@@ -61,7 +61,7 @@ plt.show()
 
 1. Datu vizualizācija: ielasīt datus no iegūtā `*.csv` faila (piemēram, `CTS_TiO2-8815.csv`) un izveidot grafiku, izmantojot `matplotlib`bibliotēku:
     * izmantot `pcap_energy_avg` kā x-asi un `ch01 / ch02` kā y-asi;
-    * grafikam piešķirt nosaukumu 'Ti L_{2,3}$ edge ($TiO_{2}$ SolGel)', x-asij 'Energy, eV' un y asij 'Normalized intensity, a.u.';
+    * grafikam piešķirt nosaukumu ' $Ti L_{2,3}$ edge ($TiO_{2}$ SolGel)', x-asij 'Energy, eV' un y asij 'Normalized intensity, a.u.';
     * saglabāt grafiku kā `XANES.pdf` un nodod testa atbilstošajā uzdevumā.
 
-Saite uz datiem: [testa datne](https://estudijas.lu.lv/draftfile.php/1176695/user/draft/355914573/CTS_Test.h5).
+Saite uz datiem: [testa datne](https://estudijas.lu.lv/draftfile.php/1176695/user/draft/355914573/CTS_Test.h5) vai [šeit](https://github.com/AnthonyTSV/DatZB011/blob/main/12-Week/data/CTS_Test.h5).
