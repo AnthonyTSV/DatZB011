@@ -40,6 +40,9 @@ parts:
     chapters:
     - file: 11-Week/11_nodarbiba
     - file: 11-Week/OOP.ipynb
+  - caption: 12. nedēļa
+    chapters:
+    - file: 12-Week/12_nodarbiba
   
   - caption: Patstavīgie darbi
     chapters:
