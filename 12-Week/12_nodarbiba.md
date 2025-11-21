@@ -28,8 +28,7 @@ Programmas soļi:
 11. Visus atrastos pīķus apvelciet ar sarkaniem apļiem.
 
 _Papildus uzdevums: Vai varat atpazīt kurš spektrs atbilst kurai lampai? Ierakstiet testa atbildes logā!_
-
-Datnes: [1.spektrs](https://estudijas.lu.lv/draftfile.php/1176695/user/draft/812323098/spektrs1.asc) ; [2.spektrs](https://estudijas.lu.lv/draftfile.php/1176695/user/draft/812323098/spektrs2.asc) ; [3.spektrs](https://estudijas.lu.lv/draftfile.php/1176695/user/draft/812323098/spektrs3.asc) .
+Datnes: [1.spektrs](https://github.com/AnthonyTSV/DatZB011/blob/main/12-Week/data/spektrs1.asc) ; [2.spektrs](https://github.com/AnthonyTSV/DatZB011/blob/main/12-Week/data/spektrs2.asc) ; [3.spektrs](https://github.com/AnthonyTSV/DatZB011/blob/main/12-Week/data/spektrs3.asc) .
 
 Koda fragments (drīkst neizmantot):
 
@@ -64,4 +63,4 @@ plt.show()
     * grafikam piešķirt nosaukumu ' $Ti L_{2,3}$ edge ($TiO_{2}$ SolGel)', x-asij 'Energy, eV' un y asij 'Normalized intensity, a.u.';
     * saglabāt grafiku kā `XANES.pdf` un nodod testa atbilstošajā uzdevumā.
 
-Saite uz datiem: [testa datne](https://estudijas.lu.lv/draftfile.php/1176695/user/draft/355914573/CTS_Test.h5) vai [šeit](https://github.com/AnthonyTSV/DatZB011/blob/main/12-Week/data/CTS_Test.h5).
+Saite uz datiem: [šeit](https://github.com/AnthonyTSV/DatZB011/blob/main/12-Week/data/CTS_Test.h5).
