@@ -1,4 +1,6 @@
-# 14. nodarbība. Numpy lietošana
+# 13. nodarbība. Numpy lietošana
+
+13. nodarbības Jupyter Notebook fails ir [šeit](https://github.com/AnthonyTSV/DatZB011/blob/main/13-Week/13_uzdevumi.ipynb)
 
 ## 1. uzdevums. Attēlu pārveidošana
 

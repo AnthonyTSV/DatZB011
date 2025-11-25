@@ -44,6 +44,9 @@ parts:
     chapters:
     - file: 12-Week/12_nodarbiba
     - file: 12-Week/1uzd.ipynb
+  - caption: 13. nedēļa
+    chapters:
+    - file: 13-Week/13_nodarbiba
   
   - caption: Patstavīgie darbi
     chapters:
