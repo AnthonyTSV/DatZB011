@@ -79,7 +79,7 @@ _1. attēls. Ģenerēti dati, kas aproksimēti ar lineāru novērtējumu $\hat{y
 2. Pierakstiet un vienkāršojiet nosacījumus zaudējuma funkcijas minimumam. Šajā gadījumā nav jānovērtē Hesenes (_Hessian_) vērtība.
 3. Atrisiniet iegūto sistēmu parametriem $a$, pieņemot, ka $x$, $y$ un $\sigma$ ir zināmi.
 4. Ielasiet datus no `data.csv`, izmantojot `csv.reader(...)`. Sakārtojiet tos masīvos `xs`, `ys`, `sigmas`.
-   [data.csv](https://estudijas.lu.lv/draftfile.php/1176695/user/draft/264973688/data.csv?time=1729417942990)
+   [data.csv](https://github.com/AnthonyTSV/DatZB011/blob/main/13-Week/data.csv)
 5. Izmantojot 3. punktā iegūto, aprēķiniet $a_0$ un $a_1$ ar `numpy`.
 6. Attēlojiet datus līdzīgi kā 1. attēlā ar `plt.errorbar(...)`. Saglabājiet rezultātu PDF datnē ar nosaukumu `uzvards.pdf`.
 
