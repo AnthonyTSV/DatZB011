@@ -47,6 +47,7 @@ parts:
   - caption: 13. nedēļa
     chapters:
     - file: 13-Week/13_nodarbiba
+    - file: 13-Wekk/13_atrisinajumi.ipynb
   
   - caption: Patstavīgie darbi
     chapters:
