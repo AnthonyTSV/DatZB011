@@ -28,9 +28,9 @@
 
 Izmantojot dotās formulas, uzrakstiet programmu, kas modelē trušu, lapsu un zāles populāciju izmaiņas laika gaitā.
 
-Uzdevumi: `PD_2_1uzd.ipynb` [šeit] (./PD_2_1uzd.ipynb)
+Uzdevumi: `PD_2_1uzd.ipynb` [šeit](./PD_2_1uzd.ipynb)
 
-Fails: `PD_2_1uzd.ipynb` [šeit lejupielādēt](./PD_2_1uzd.ipynb)
+Fails: `PD_2_1uzd.ipynb` [šeit lejupielādēt](https://github.com/AnthonyTSV/DatZB011/blob/main/16-Week/PD_2_1uzd.ipynb)
 
 Iesniegšana: Jupyter Notebook fails ar nosaukumu `2_1_PD_{ID}.ipynb`, piemēram, `2_1_PD_jb12345.ipynb`.
 
