@@ -49,10 +49,13 @@ parts:
     - file: 13-Week/13_nodarbiba
     - file: 13-Wekk/13_atrisinajumi.ipynb
   
-  - caption: Patstavīgie darbi
+  - caption: Patstāvīgie darbi
     chapters:
     - file: 08-Week/pd_uzdevumi
-    # - file: 16-Week/pd2_uzdevumi
+    - sections:
+      - file: 16-Week/PD_2_1uzd.ipynb
+      - file: 16-Week/PD_2_2uzd_lv
+      - file: 16-Week/PD_2_2uzd_en
   
   - caption: Semestra darbs
     chapters:
