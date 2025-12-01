@@ -1,4 +1,4 @@
-# 2. Praktiskais darbs
+# Vadlīnijas 2. PD
 
 > [!IMPORTANT] Uzmanīgi!
 >
