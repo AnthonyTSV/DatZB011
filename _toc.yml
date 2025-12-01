@@ -55,6 +55,7 @@ parts:
   
   - caption: 2. Patstāvīgais darbs
     chapters:
+      - file: 16-Week/pd_2_vadlinijas
       - file: 16-Week/PD_2_1uzd.ipynb
       - file: 16-Week/PD_2_2uzd_lv
       - file: 16-Week/PD_2_2uzd_en
