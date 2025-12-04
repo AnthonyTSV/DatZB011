@@ -49,6 +49,10 @@ parts:
     - file: 13-Week/13_nodarbiba
     - file: 13-Week/13_atrisinajumi.ipynb
   
+  - caption: 14. nedēļa
+    chapters:
+    - file: 14-Week/14_nodarbiba
+  
   - caption: 1. Patstāvīgais darbs
     chapters:
     - file: 08-Week/pd_uzdevumi
