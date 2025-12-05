@@ -52,6 +52,7 @@ parts:
   - caption: 14. nedēļa
     chapters:
     - file: 14-Week/14_nodarbiba.ipynb
+    - file: 14-Week/14_nod_uzd_atbildes.ipynb
   
   - caption: 1. Patstāvīgais darbs
     chapters:
