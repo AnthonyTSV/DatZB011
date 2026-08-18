@@ -3,4 +3,6 @@ __pycache__/
 *.py[codz]
 *$py.class
 
-16-Week/solution/
+solutions/
+# MyST build outputs
+_build
