@@ -341,7 +341,7 @@ Python daudzpusība sniedzas arī daudzās citās jomās:
 
 ---
 
-## **1.2. nodaļa:** Izstrādes vides sagatavošana
+## Izstrādes vides (IDE) sagatavošana
 
 ### 🔍 Īsa piezīme par vides sagatavošanu
 
