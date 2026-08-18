@@ -23,7 +23,7 @@ DatZB011 : Datori un programmēšana kursa GitHub repozitorijs ar laboratorijas 
 
 ## 💡Kursa vērtēšanas kritēriji
 
->[!IMPORTANT]Svarīgi!
+>[!IMPORTANT]
 > Kursa gala vērtējumu sastāda:
 >
 > Starppārbaudījumi:
@@ -45,5 +45,5 @@ DatZB011 : Datori un programmēšana kursa GitHub repozitorijs ar laboratorijas 
 > 1. Rakstisks eksāmens
 >
 
->[!NOTE] Piezīme:
+>[!NOTE]
 > **Par laboratorijas darbiem jāsaņem ≥ 35%, lai varētu kārtot eksāmenu.**
